@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/payment-form.css">
+    <link rel="icon" href="images/newlogo.png">
+
+    <title>Payment | CodeWithShri</title>
+    <link rel="icon" href="images/newlogo.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logolink"><img class="smalllogo" src="images/newlogo.png" alt="logo"
+                    class="pagelogo" id="pagelogoicon">
+                <span class="pagelogo" id="#FFA500" style="color : #ff1500">
+                    Code
+                </span>
+                <span class="pagelogo" id="#DB4437" style="color:rgb(5, 255, 5)">
+                    With
+                </span>
+                <span class="pagelogo" id="darkgreen" style="color: #ffa600;">
+                    Shri
+                </span>
+            </a>
+            <a href="index.html" class="pages">Home</a>
+            <a href="index.html#about" class="pages">About</a>
+            <a href="index.html#courses" class="pages">courses</a>
+            <a href="index.html#premium-plus" class="pages">Premium Plus</a>
+            <a href="index.html#contact-us" class="pages">Contact us</a>
+            <a href="payment-form.html"><button class="button">Login/SignUp</button></a></a>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="">
+            <h1>Payment Form</h1>
+            <p>Required Fields are followed by *</p>
+            <h2>Contact Information</h2>
+            <label for="full-name">Name *</label>
+            <input type="text" id="name" name="full-name" placeholder="Your Full Name" required>
+            <label for="gender">Gender</label>
+            <p>
+                <input type="radio" name="gender" id="male"> Male
+                <input type="radio" name="gender" id="female"> Female
+            </p>
+            <label for="address">Address *</label>
+            <textarea name="address" id="address" placeholder="Full Address..." style="height:200px"
+                required></textarea>
+            <label for="Email">Email *</label>
+            <input type="email" name="email" id="email" required placeholder="username@domainname.com">
+            <label for="pincode">Pincode *</label>
+            <input type="number" name="pincode" id="pincode" placeholder="6 - Digit Number" required>
+            <h2>Payment Information</h2>
+            <label for="card_type">Card Type *</label>
+            <select name="card_type" id="card_type" required>
+                <option value="">--- Select a Card Type ---</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">MasterCard</option>
+            </select>
+            <label for="card_number">Card Number *</label>
+            <input type="number" name="card_number" id="card_number" placeholder="16 - Digit Number" required>
+            <label for="exp_date">Expiration Month *</label>
+            <input type="number" name="exp_date" id="exp_date" required>
+            <label for="exp_date">Expiration Year *</label>
+            <input type="number" name="exp_date" id="exp_date" required>
+            <label for="cvv">CVV *</label>
+            <input type="password" name="cvv" id="cvv" placeholder="&#9913; &#9913; &#9913;" required>
+            <input type="submit" value="Pay Now">
+        </form>
+    </div>
+    <footer>
+        <p class=follow-us>
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube-icon.png" alt="youtube-icon"
+                    class="icons" /></a>
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="facebook-icon"
+                    class="icons" /></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="twitter-icon"
+                    class="icons" /></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram-icon.png" alt="instagram-icon"
+                    class="icons" /></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin-icon.png" alt="linkedin-icon"
+                    class="icons" /></a>
+            <a href="https://pinterest.com" target="_blank"><img src="images/pinterest-icon.png" alt="pintrest-icon"
+                    class="icons" /></a>
+            <a href="https://telegram.org" target="_blank"><img src="images/telegram-icon.png" alt="telegram-icon"
+                    class="icons" /></a>
+        </p>
+        <a href="index.html" class="logolink"><img class="smalllogo" src="images/newlogo.png" alt="logo"
+                class="pagelogo" id="pagelogoicon"><span class="pagelogo" id="#ff1500" style="color : #ff1500">
+                Code
+            </span>
+            <span class="pagelogo" id="#DB4437" style="color:rgb(5, 255, 5)">
+                With
+            </span>
+            <span class="pagelogo" id="darkgreen" style="color: #ffa600;;">
+                Shri
+            </span>
+        </a>
+        <nav class="footer">
+            <a href="#" class="footerpages">FAQ</a>
+            <a href="#" class="footerpages">Contact Us</a>
+            <a href="#" class="footerpages">Terms Of Use</a>
+            <a href="#" class="footerpages">Privacy Policy</a>
+            <a href="#" class="footerpages">Refund</a>
+            <a href="#" class="footerpages"> © 2021 | CodeWithShri</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
